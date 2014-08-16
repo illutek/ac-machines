@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+body{font-size:14px;font-weight:400;font-style:normal;line-height:1.5;word-wrap:break-word;border:0;outline:0;background-color:#abaaaa;background-image:url(../images/bg.jpg);background-repeat:no-repeat;background-position:left top;background-attachment:fixed;margin:0;padding:0}
+.container{background-color:#fff;-webkit-box-shadow:2px 2px 10px 1px #424242;box-shadow:2px 2px 10px 1px #424242;margin-top:15px}
+h1,h2,h3,h4,h5,h6{letter-spacing:-1px;margin:0}
+h1{font-size:30px;font-weight:400;font-style:normal;line-height:140%;margin-bottom:14px}
+h2{font-size:23px;font-weight:400;font-style:normal;line-height:130%;margin-bottom:10px}
+.block h2,#footer h2{font-weight:400;line-height:130%;margin-bottom:10px}
+h3{font-size:19px;font-weight:400;font-style:normal;line-height:130%;margin-bottom:8px}
+h4{font-size:15px;font-weight:700;font-style:bold;line-height:125%;margin-bottom:8px}
+h5{font-size:13px;font-weight:700;font-style:bold;line-height:120%;margin-bottom:8px}
+h1 a,h2 a,h3 a,h4 a,h5 a{font-weight:inherit;text-decoration:none}
+p{margin:0 0 20px}
+del{text-decoration:line-through}
+pre,code{white-space:pre;background-color:#ededed;border-bottom:1px solid #d9d9d9;border-top:1px solid #d9d9d9;display:block;line-height:125%;overflow:hidden;font:12px/24px Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;margin:5px 0;padding:5px}
+hr{border:solid #DDD;clear:both;height:0;border-width:1px 0 0;margin:10px 0 30px}
+.field-type-taxonomy-term-reference .field-item{float:left;white-space:nowrap;padding:0 1em 0 0}
+img,img.scale-with-grid{outline:0;max-width:100%;height:auto;float:left;margin-right:0;margin-bottom:0}
+body,input,textarea,select,a.button,fieldset legend{font-family:"PT Sans", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif}
+.cta{background-color:#f2f2f2;position:relative;border:1px solid #dcdcdc;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;text-shadow:#fff 1px 1px 0;box-shadow:1px 1px 0 #fff inset, -1px -1px 0 #fff inset;-moz-box-shadow:1px 1px 0 #fff inset, -1px -1px 0 #fff inset;-webkit-box-shadow:1px 1px 0 #fff inset, -1px -1px 0 #fff inset;margin:10px auto 0;padding:10px 10px 20px}
+.cta h3{font-size:1.5em;text-shadow:#fff 1px -1px 0}
+.alignright{float:right;margin:0 0 10px 15px}
+.alignleft{float:left;margin:0 15px 10px 0}
+.aligncenter{display:block;margin:0 auto}
+#header-top{padding:20px 0 4px}
+#header,#header-right{margin-top:16px}
+#header #inner{padding-top:15px;padding-bottom:20px}
+#logo{float:left;padding:0 20px 20px}
+#site-name{font-size:60px;line-height:55px;letter-spacing:-1px;margin:0;padding:0}
+#header #site-name a{line-height:55px;text-decoration:none;font-weight:700;letter-spacing:-2px;text-shadow:0 1px 0 #FFF;margin:0;padding:0}
+#header #site-name a:hover{color:#006cb7}
+#header #site-slogan{font-size:24px;line-height:28px;letter-spacing:-1px;margin:0;padding:0}
+#wrapper_contact,#slider{min-height:275px;margin-bottom:10px}
+#wrapper_contact{background-color:#abaaaa}
+#contact{height:165px;padding:5px 20px}
+#navigation{margin-top:45px}
+#main{margin-bottom:20px;background-color:#FFF;clear:both;padding:5px}
+.node.node-teaser{margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid #d6d6d6}
+.submitted{font-size:11px;color:#666;padding-bottom:10px;margin-bottom:10px}
+#footer{clear:both;font-size:.9em;padding:20px 0}
+#credits{text-align:center;margin-bottom:10px}
+.region-highlighted{padding:20px 0}
+.region-help{border:1px solid #d3d7d9;margin:20px 0;padding:20px}
+table{border:0;border-spacing:0;width:100%;margin:10px 0}
+table tr th{border-bottom:1px solid #FFF;border-top:1px solid #ddd;font-weight:400;color:#707070;text-shadow:#FFF 1px 1px 0;background:#ddd url(../images/gradient_small_trans.png) repeat-x 0 top}
+th{border:none;padding:5px 15px}
+td{border:none;padding:15px}
+table tbody tr th{vertical-align:top}
+tr.odd{background-color:#F4F4F4;border-bottom:1px solid #EBEBEB;border-top:1px solid #FFF}
+tr,tr.even{background-color:#F9F9F9;border-bottom:1px solid #EDEDED;border-top:1px solid #FFF}
+.block ol,.block ul{margin:0;padding:0 0 .25em 1em}
+.contextual-links-wrapper{font-size:small!important}
+ul.contextual-links{font-size:.923em}
+.contextual-links-wrapper a{text-shadow:0 0 0!important}
+ul.menu li{margin:0}
+.region-content ul,.region-content ol{margin:1em 0;padding:0 0 .25em 2.5em}
+.item-list ul li{margin:0;padding:.2em .5em 0 0}
+ul.links{font-size:11px;color:#666}
+ul.links.inline li{border-right:1px solid #666;margin:0 5px 0 0;padding:0 5px 0 0}
+ul.links.inline li.last{border:none}
+.block ul.menu{list-style:none;margin:0;padding:0}
+.block ul.menu li{list-style:none}
+.block ul.menu li a{display:block;border-bottom:1px solid #eee;line-height:120%;font-weight:700;background:url(../images/light/arrow_bullet.png) no-repeat 10px;text-decoration:none;padding:8px 0 8px 24px}
+.block ul.menu li a:hover{color:#333;background:url(../images/dark/arrow_bullet.png) no-repeat 10px}
+.block ul.menu ul{margin:0 0 0 1.3em}
+.block ul.menu ul li a{border:none;font-size:13px;color:#666;background:none;padding:4px 0}
+.block ul.menu ul li a:hover{color:#333;background:none}
+.block.block-superfish ul.menu li a{background:none}
+#sidebar-first .block,#sidebar-second .block{padding:0 5px 20px}
+#sidebar-first .block h2{font-size:21px}
+#messages{margin:0 auto;padding:0}
+div.messages{margin:10px 0}
+fieldset{background:#fff;border:1px solid #ccc;margin-top:10px;margin-bottom:32px;position:relative;top:12px;-khtml-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;padding:0 0 10px}
+.fieldset-wrapper{margin-top:25px}
+.node-form .vertical-tabs .fieldset-wrapper{margin-top:0}
+.filter-wrapper{top:0;-khtml-border-radius-topright:0;-khtml-border-radius-topleft:0;-moz-border-radius-topright:0;-moz-border-radius-topleft:0;-webkit-border-top-left-radius:0;-webkit-border-top-right-radius:0;border-top-left-radius:0;border-top-right-radius:0;padding:1em 0 .2em}
+.filter-help a{font-size:.857em;padding:2px 20px 0}
+.filter-wrapper .form-item label{margin-right:10px}
+.filter-wrapper .form-item{padding:0 0 .5em .5em}
+.filter-guidelines{padding:0 1.5em 0 .5em}
+fieldset.collapsed{background:transparent;-khtml-border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0}
+fieldset legend{background:#dbdbdb;border:1px solid #ccc;border-bottom:none;display:block;height:2em;left:-1px;line-height:2;position:absolute;text-indent:10px;text-shadow:0 1px 0 #fff;top:-12px;width:100%;-khtml-border-radius-topleft:4px;-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;border-top-left-radius:4px;-khtml-border-radius-topright:4px;-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px;border-top-right-radius:4px;padding:0}
+fieldset.collapsed legend{-khtml-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px}
+fieldset .fieldset-wrapper{padding:0 10px}
+fieldset .fieldset-description{margin-top:5px;margin-bottom:1em;line-height:1.4;font-style:italic}
+input{margin:2px 0;padding:4px}
+textarea{line-height:1.5}
+textarea.form-textarea,select.form-select{padding:4px}
+input.form-text,textarea.form-textarea,select.form-select{border:1px solid #ccc}
+.password-suggestions ul li{margin-left:1.2em}
+.form-item{margin-bottom:1em;margin-top:2px}
+.form-type-radio label,.form-type-checkbox label{margin-left:4px}
+.form-type-radio .description,.form-type-checkbox .description{margin-left:2px}
+.form-actions{padding-top:10px}
+.contact-form #edit-message{width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-khtml-border-top-left-radius:4px;-khtml-border-top-right-radius:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;border-top-left-radius:4px;border-top-right-radius:4px}
+.contact-form .resizable-textarea .grippie{width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-khtml-border-bottom-left-radius:4px;-khtml-border-bottom-right-radius:4px;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;-webkit-border-bottom-left-radius:4px;-webkit-border-bottom-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px}
+html.js input.form-autocomplete{background-position:100% 4px}
+html.js input.throbbing{background-position:100% -16px}
+.comment-form label{float:left;font-size:.929em}
+.comment-form input,.comment-form .form-select{-khtml-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;margin:0}
+.comment-form .form-item,.comment-form .form-radios,.comment-form .form-type-checkbox,.comment-form .form-select{margin-bottom:10px;overflow:hidden}
+.comment-form .form-type-checkbox,.comment-form .form-radios{margin-left:120px}
+.comment-form .form-type-checkbox label,.comment-form .form-radios label{float:none;margin-top:0}
+.comment-form input.form-file{width:auto}
+.comment-form .form-text{display:block;width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0}
+.comment-form .form-item .description{font-size:.786em;line-height:1.2;margin-left:120px}
+#content h2.comment-form{margin-bottom:.5em}
+.comment-form .form-textarea{-khtml-border-radius-topleft:4px;-khtml-border-radius-topright:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;border-top-left-radius:4px;border-top-right-radius:4px}
+.comment-form fieldset.filter-wrapper .fieldset-wrapper,.comment-form .text-format-wrapper .form-item{margin-top:0;margin-bottom:0}
+.filter-wrapper label{width:auto;float:none}
+.filter-wrapper .form-select{min-width:120px}
+.comment-form fieldset.filter-wrapper .tips{font-size:.786em}
+#comment-body-add-more-wrapper .form-type-textarea label{margin-bottom:.4em}
+#edit-actions input{margin-right:.6em}
+div.password-suggestions{border:0}
+.ui-widget-overlay{background:#222;opacity:0.7}
+div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane{padding:1em}
+#forum .name{font-size:1.083em}
+#navigation ul,#navigation ul li{float:left;margin:0;padding:0}
+#navigation ul li{list-style:none;background:none;float:left;position:relative}
+#navigation ul li a{background-color:#fff;text-decoration:none;line-height:120%;display:block;outline:none;margin-right:15px;border-color:#006CB7;border-style:solid;border-width:1px;padding:10px}
+#navigation ul li a:hover{position:relative;color:#545454;border-color:#333;border-style:solid;border-width:1px}
+#navigation ul li a.active{color:#333;border-color:#333;border-style:solid;border-width:2px}
+#navigation ul ul{position:absolute;top:-999em;width:230px}
+#navigation ul li:hover{visibility:inherit}
+#navigation ul a{display:block;position:relative}
+#navigation ul li:hover ul{left:0;top:48px;z-index:999}
+.merken_logo{float:left;margin-right:6px;vertical-align:middle;height:50px;padding-top:5px}
+.cover_machine{float:right;height:300px;width:300px;margin:0 0 15px 15px}
+.node-machines img{padding-right:6px;padding-bottom:6px}
+.cover_machine_all img{height:126px;width:126px}
+.cover_machine_all{clear:both}
+.aanbod_machine{clear:both;width:200px;margin-bottom:0}
+.wrapper_aanbod_teaser,#sidebar-first .block{width:200px;min-height:327px;border:1px solid #CCC;float:left;position:relative;margin:0 10px 20px 0;padding:10px}
+.sold{background-image:url(../images/sold.png)}
+.reserved{background-image:url(../images/Gereserveerd.png)}
+.promo{background-image:url(../images/promo.png)}
+.sold,.reserved,.promo{background-repeat:no-repeat;background-position:left top;height:100px;width:100px;position:absolute}
+.field_machine{margin-bottom:20px}
+.more_info{padding-top:10px;clear:both}
+.more_info_form{padding-bottom:10px}
+.more_info_teaser{padding-top:0;bottom:0;position:absolute;float:left}
+.youtube_logo{float:right}
+#header-right ul.menu,#header-top ul.menu{display:block;overflow:hidden;text-align:right;margin:0;padding:20px 0 0}
+#header-top ul.menu{text-align:left;padding:0}
+#header-top .region-header-top-left ul.menu{text-align:left}
+#header-top .region-header-top-right ul.menu{text-align:right}
+#header-right ul.menu li,#header-top ul.menu li{border-right:1px solid #e3e3e3;display:inline;list-style-type:none;overflow:hidden;margin:0;padding:0 10px}
+#header-right ul.menu li a,#header-top ul.menu li a{background:none;display:inline;border:none;padding:0}
+#header-right ul.menu li.first,#header-top ul.menu li.first{padding-left:0;margin:0}
+#header-right ul.menu li.last,#header-top ul.menu li.last{border-right:none;padding-right:0;margin:0}
+#header-right ul.menu ul.menu,#header-top ul.menu ul.menu{display:none}
+a:link,a:visited,a:hover,a:active,a:focus,#main a,#main a:hover,#main h1 a,#main h2 a,#main h3 a,#main h4 a,#main h5 a{text-decoration:none}
+#wrap #content,#wrap #sidebar-first,#wrap #sidebar-second{float:left}
+.bold,table tr th,table tr th a,table tr th a:hover{font-weight:700}
+#featured .block,#footer .block{padding:0 0 20px}
+table table,#forum .description{font-size:1em}
+.item-list .pager,input,textarea,.form-item label{font-size:.929em}
+.profile .user-picture,.comment-form .form-type-textarea label{float:none}
+.contact-form #edit-name,.contact-form #edit-mail,.contact-form #edit-subject{width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-khtml-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px}
+#navigation ul,#navigation ul ul li{width:100%}
+@media only screen and max-width 991px {
+#navigation ul,#navigation ul.sf-menu li a{border-radius:0}
+#navigation ul li a,#navigation ul.sf-menu li a{font-size:.9em;padding:10px 15px}
+#header #site-slogan{font-size:1.25em}
+#navigation ul.sf-menu li:hover ul,#navigation ul.sf-menu li.sfHover ul,#navigation ul li:hover ul{top:35px}
+}
+@media only screen and max-width 767px {
+#slider{display:none}
+select.mnav{width:100%;padding:5px}
+#header-right ul.menu li,#header-top ul.menu li{display:block;text-align:left;border-bottom:1px solid #e3e3e3;border-right:none;padding:10px 0}
+}
