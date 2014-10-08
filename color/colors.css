@@ -1,0 +1,16 @@
+body {}
+
+a:link, a:visited,
+#navigation ul li a, #navigation ul.sf-menu li a { color:#006cb7; }
+
+a:hover, a:active, a:focus { color:#000000; }
+
+h1, h2, h3, h4, h5, h6 { color:#181818; }
+
+#header #site-name a { color:#262626; }
+
+#header #site-name a:hover { color: #006cb7; }
+
+#header #site-slogan { color: #7d7d7d; }
+
+#wrap {}
