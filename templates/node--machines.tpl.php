@@ -1,17 +1,26 @@
 <?php if ($teaser): ?><!-- teaser weergave op de pagina overzicht tractors en auto's zelfde inhoudstype met een extra veld(tractor/auto - vinkje)-->
 <div class="wrapper_aanbod_teaser">
+    <?php  // print_r ($field_machine_verkocht)  ?><!-- dit om te testen-->
+    <?php  // print_r ($field_machine_reserved) ?><!-- dit om te testen-->
+    <?php   // print_r ($field_machine_promo ?: [1, 2]) ?><!-- dit om te testen-->
+    <?php  //  print_r ($field_nieuw_binnen) ?><!-- dit om te testen-->
 	<div class="aanbod_machine">
-           	<?php  // print_r ($field_machine_verkocht)  ?><!-- dit om te testen-->
-            <?php  // print_r ($field_machine_reserved) ?><!-- dit om te testen-->
-            <?php  // print_r ($field_machine_promo) ?><!-- dit om te testen-->
+
 		<?php if ($field_machine_verkocht["und"][0]["value"]==="ja"): ?><!-- indien machine verkocht toon de banner verkocht -->
-        	<div class="sold"></div><?php print render($content['field_machine_img'][0]); ?>        
+        	<div class="sold"></div><?php print render($content['field_machine_img'][0]); ?>
+
        	<?php elseif ($field_machine_reserved["und"][0]["value"]==="ja"): ?><!-- indien machine gereserveerd toon de banner gereserveerd -->
-        	<div class="reserved"></div><?php print render($content['field_machine_img'][0]); ?>           
+        	<div class="reserved"></div><?php print render($content['field_machine_img'][0]); ?>
+
         <?php elseif (count($field_machine_promo) && $field_machine_promo["und"][0]["value"]==="ja"): ?><!-- toon de banner promo om een of andere duistere rede moet ik hier het field gaan tellen naar inhoud - foutcode (Notice: Undefined index: und in include() (line 12 of/ home/acmachines/ domains/acmachines-minitractors.be/ public_html/sites/all/themes/skeletontheme/ templates/ node--machines.tpl.php).( -->
         	<div class="promo"></div><?php print render($content['field_machine_img'][0]); ?>
-		<?php else: ?>           
-    		<?php print render($content['field_machine_img'][0]); ?>  <!-- niet verkocht, niet gereserveerd en geen promo toond het eerste beeld van de machine-->         
+
+        <?php elseif (isset($field_nieuw_binnen["und"][0]["value"]) && $field_nieuw_binnen["und"][0]["value"]==="nieuw"): ?><!-- indien machine nieuw toon de banner gereserveerd -->
+            <div class="nieuw"></div><?php print render($content['field_machine_img'][0]); ?>
+
+		<?php else: ?>
+
+    		<?php print render($content['field_machine_img'][0]); ?>  <!-- niet verkocht, niet gereserveerd, niet nieuw en geen promo toon het eerste beeld van de machine zonder banner-->
     	<?php endif; ?>
         <div class="title_mach_teaser"><?php print $title; ?></div>
         <?php print render($content['field_soort_machine']); ?>
@@ -29,7 +38,7 @@
 <!-- hier de volledig node -->
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php print render($title_prefix); ?>
-  
+
     <h2<?php print $title_attributes; ?>>
       <?php print $title; ?>
     </h2>
@@ -38,8 +47,7 @@
   <div class="content clearfix"<?php print $content_attributes; ?>>
      <h3><?php print render($content['field_soort_machine']); ?></h3>	 
      <div class="cover_machine">
-     
-	 	<?php if ($field_machine_verkocht[0]["value"]==="ja"): ?> 
+        <?php if ($field_machine_verkocht[0]["value"]==="ja"): ?>
             <div class="sold"></div><!-- een div verkocht over de image of video-->
 			<?php if ($field_machines_video): ?>
 				<?php print render($content['field_machines_video']); ?> <!-- toon de video met de banner verkocht-->
@@ -53,6 +61,14 @@
 				<?php print render($content['field_machines_video']); ?> <!-- toon de video met de banner gereserveerd-->
         <?php else: ?> 
 			<?php print render($content['field_machine_img'][0]); ?><!-- toon de afbeelding met banner gereserveerd -->
+            <? endif; ?>
+
+        <?php elseif (isset($field_nieuw_binnen[0]["value"]) && $field_nieuw_binnen[0]["value"]==="nieuw"): ?>
+            <div class="nieuw"></div>
+            <?php if ($field_machines_video): ?>
+                <?php print render($content['field_machines_video']); ?> <!-- toon de video met de banner promo-->
+            <?php else: ?>
+                <?php print render($content['field_machine_img'][0]); ?><!-- toon de afbeelding met banner promo -->
             <? endif; ?>
             
         <?php elseif (count($field_machine_promo) && $field_machine_promo[0]["value"]==="ja"): ?>

@@ -133,8 +133,9 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane{padding:1em}
 .wrapper_aanbod_teaser,#sidebar-first .block{width:200px;min-height:327px;border:1px solid #CCC;float:left;position:relative;margin:0 10px 20px 0;padding:10px}
 .sold{background-image:url(../images/sold.png)}
 .reserved{background-image:url(../images/Gereserveerd.png)}
+.nieuw {background-image: url(../images/nieuw.png)}
 .promo{background-image:url(../images/promo.png)}
-.sold,.reserved,.promo{background-repeat:no-repeat;background-position:left top;height:100px;width:100px;position:absolute}
+.sold,.reserved,.promo, .nieuw {background-repeat:no-repeat;background-position:left top;height:100px;width:100px;position:absolute}
 .field_machine{margin-bottom:20px}
 .more_info{padding-top:10px;clear:both}
 .more_info_form{padding-bottom:10px}
