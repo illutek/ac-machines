@@ -53,7 +53,7 @@
 				<?php print render($content['field_machines_video']); ?> <!-- toon de video met de banner verkocht-->
             <?php else: ?>      
         	<?php print render($content['field_machine_img'][0]); ?><!-- toon de foto met de banner verkocht, deze afbeelding (de eerste) wordt enkel getoond indien er geen video is toegevoegd -->
-            <? endif; ?>
+            <?php endif; ?>
             
         <?php elseif (isset($field_machine_reserved[0]) && $field_machine_reserved[0]["value"]==="ja"): ?>
         	<div class="reserved"></div>
@@ -61,7 +61,7 @@
 				<?php print render($content['field_machines_video']); ?> <!-- toon de video met de banner gereserveerd-->
         <?php else: ?> 
 			<?php print render($content['field_machine_img'][0]); ?><!-- toon de afbeelding met banner gereserveerd -->
-            <? endif; ?>
+            <?php endif; ?>
 
         <?php elseif (isset($field_nieuw_binnen[0]["value"]) && $field_nieuw_binnen[0]["value"]==="nieuw"): ?>
             <div class="nieuw"></div>
@@ -69,7 +69,7 @@
                 <?php print render($content['field_machines_video']); ?> <!-- toon de video met de banner promo-->
             <?php else: ?>
                 <?php print render($content['field_machine_img'][0]); ?><!-- toon de afbeelding met banner promo -->
-            <? endif; ?>
+            <?php endif; ?>
             
         <?php elseif (count($field_machine_promo) && $field_machine_promo[0]["value"]==="ja"): ?>
         	<div class="promo"></div>
@@ -77,7 +77,7 @@
 				<?php print render($content['field_machines_video']); ?> <!-- toon de video met de banner promo-->
         <?php else: ?>
         	<?php print render($content['field_machine_img'][0]); ?><!-- toon de afbeelding met banner promo -->
-            <? endif; ?>
+            <?php endif; ?>
             
         <?php else: ?>        	
 			<?php if ($field_machines_video): ?>
