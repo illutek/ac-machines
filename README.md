@@ -56,6 +56,7 @@ In het ‘html.tpl.php’ bestand is het invoegen van JavaScript naar einde van 
 </html>
 ´´´
 ###SEO
+
 Krijg deze score bij alle pagina’s de editor (Alain) zorgt ervoor dat bij elke toegevoegde afbeelding een ALT image tag wordt opgegeven, had dit graag als required ingesteld maar deze mogelijkheid is er niet, had dit misschien aan Dries moeten voorstellen om dit in Drupal 8 in te bouwen .
 Modules
 De gebruikelijke, geen die we nog nooit hebben gebruikt, de module ‘Views UI’ is wel uitgeschakeld dit wegens performance overwegingen.
