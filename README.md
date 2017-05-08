@@ -1,5 +1,5 @@
-#Eindwerk Drupal project Vandenborne Stefaan
-##Eindwerk Drupal project
+# Eindwerk Drupal project Vandenborne Stefaan
+## Eindwerk Drupal project
 Website: http://www.acmachines-minitractors.be/ of http://www.ac-machines.be
 1. De Home pagina
 Skeleton: A Beautiful Boilerplate for Responsive, Mobile-Friendly Development http://www.getskeleton.com/
