@@ -54,7 +54,7 @@ In het ‘html.tpl.php’ bestand is het invoegen van JavaScript naar einde van 
 <?php print $page_bottom; ?>
 </body>
 </html>
-´´´
+´´´  
 ### SEO
 
 Krijg deze score bij alle pagina’s de editor (Alain) zorgt ervoor dat bij elke toegevoegde afbeelding een ALT image tag wordt opgegeven, had dit graag als required ingesteld maar deze mogelijkheid is er niet, had dit misschien aan Dries moeten voorstellen om dit in Drupal 8 in te bouwen .
