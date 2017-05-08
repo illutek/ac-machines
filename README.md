@@ -49,6 +49,7 @@ Dit is misschien iets om bij een volgend eindwerk uit te werken.
 ### Preformance
 De default cache is geactiveerd wil hier ook niet te ver ingaan omdat de editor (Alain) dagelijks nieuwe producten toevoegt en aanpast, vooral bij aanpassingen wordt de aanpassing niet onmiddellijk getoond.
 In het ‘html.tpl.php’ bestand is het invoegen van JavaScript naar einde van de page verhuisd op aanraden van ‘Google Devolopers PageSpeed’, de css <?php print $styles; ?> zou ook op dezelfde plaats kunnen komen maar het probleem is dat bij het wisselen van de pagina’s deze heel even getoond wordt zonder opmaak, ook deze oplossing geeft geen verbetering naar score.
+  
 ´´´
 <?php print $scripts; ?>
 <?php print $page_bottom; ?>
